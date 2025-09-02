@@ -1,7 +1,17 @@
 # mini-projeto-pipeline-de-dados
-mini projeto de pipeline de dados do Programa Desenvolve da Boticário 
+Mini Projeto de Pipeline de Dados do Programa Desenvolve da Boticário 
+
+Participantes do projeto: 
+Carolina Soares 
+Dieniffer Rodrigues 
+Eloisa Caráteu 
+Juliana Almeida 
+Marcelo Maia 
+Yuki Vidal 
+
 -- Por que uma planilha não é ideal para uma empresa que quer analisar suas vendas a fundo?
 -- Resposta: uma planilha não é ideal, pois tem uma capacidade de armazenamento menor e limitado, escalabilidade menor e flexibilidade.   
+
 -- Que tipo de perguntas vocês acham que o dono da livraria gostaria de responder com esses dados?
 -- Resposta: Obter analise de faturamento diario, estoque, produtos mais vendidos, os não vendidos e padrão do consumidor.
 
