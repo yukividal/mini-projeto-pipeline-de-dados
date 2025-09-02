@@ -5,7 +5,7 @@
 -- Tabela de Clientes
 -- Armazena informações únicas de cada cliente.
 -- No BigQuery, chaves primárias não são impostas, mas ID_Cliente serve como identificador lógico.
-CREATE OR REPLACE TABLE `seu-projeto.seu_dataset.Clientes` (
+CREATE OR REPLACE TABLE `t1engenhariadados.Livraria_DevSaber_Grupo_3_9.Clientes` (
     ID_Cliente INT64,
     Nome_Cliente STRING,
     Email_Cliente STRING,
@@ -14,7 +14,7 @@ CREATE OR REPLACE TABLE `seu-projeto.seu_dataset.Clientes` (
 
 -- Tabela de Produtos
 -- Armazena informações únicas de cada produto.
-CREATE OR REPLACE TABLE `seu-projeto.seu_dataset.Produtos` (
+CREATE OR REPLACE TABLE `t1engenhariadados.Livraria_DevSaber_Grupo_3_9.Produtos` (
     ID_Produto INT64,
     Nome_Produto STRING,
     Categoria_Produto STRING,
@@ -24,7 +24,7 @@ CREATE OR REPLACE TABLE `seu-projeto.seu_dataset.Produtos` (
 -- Tabela de Vendas
 -- Tabela de fatos que relaciona clientes e produtos, registrando cada transação.
 -- As relações com Clientes e Produtos são lógicas, mantidas pelos campos de ID.
-CREATE OR REPLACE TABLE `seu-projeto.seu_dataset.Vendas` (
+CREATE OR REPLACE TABLE `t1engenhariadados.Livraria_DevSaber_Grupo_3_9.Vendas` (
     ID_Venda INT64,
     ID_Cliente INT64,
     ID_Produto INT64,
