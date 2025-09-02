@@ -2,7 +2,7 @@
 -- A cláusula VALUES é usada para inserir múltiplas linhas de uma vez.
 
 -- Inserção de dados na tabela Clientes (sem duplicatas)
-INSERT INTO `seu-projeto.seu_dataset.Clientes` (ID_Cliente, Nome_Cliente, Email_Cliente, Estado_Cliente)
+INSERT INTO `t1engenhariadados.Livraria_DevSaber_Grupo_3_9.Clientes` (ID_Cliente, Nome_Cliente, Email_Cliente, Estado_Cliente)
 VALUES
     (1, 'Ana Silva', 'ana.s@email.com', 'SP'),
     (2, 'Bruno Costa', 'b.costa@email.com', 'RJ'),
@@ -10,7 +10,7 @@ VALUES
     (4, 'Daniel Souza', 'daniel.s@email.com', 'MG');
 
 -- Inserção de dados na tabela Produtos (sem duplicatas)
-INSERT INTO `seu-projeto.seu_dataset.Produtos` (ID_Produto, Nome_Produto, Categoria_Produto, Preco_Produto)
+INSERT INTO `t1engenhariadados.Livraria_DevSaber_Grupo_3_9.Produtos` (ID_Produto, Nome_Produto, Categoria_Produto, Preco_Produto)
 VALUES
     (101, 'Fundamentos de SQL', 'Dados', 60.00),
     (102, 'Duna', 'Ficção Científica', 80.50),
@@ -18,7 +18,7 @@ VALUES
     (104, 'O Guia do Mochileiro', 'Ficção Científica', 42.00);
 
 -- Inserção de dados na tabela Vendas
-INSERT INTO `seu-projeto.seu_dataset.Vendas` (ID_Venda, ID_Cliente, ID_Produto, Data_Venda, Quantidade)
+INSERT INTO `t1engenhariadados.Livraria_DevSaber_Grupo_3_9.Vendas` (ID_Venda, ID_Cliente, ID_Produto, Data_Venda, Quantidade)
 VALUES
     (1, 1, 101, '2024-01-15', 1),
     (2, 2, 102, '2024-01-18', 1),
