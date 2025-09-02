@@ -2,12 +2,20 @@
 Mini Projeto de Pipeline de Dados do Programa Desenvolve da Boticário 
 
 Participantes do projeto: 
+
 Carolina Soares 
+
 Dieniffer Rodrigues 
+
 Eloisa Caráteu 
+
 Juliana Almeida 
+
 Marcelo Maia 
+
 Yuki Vidal 
+
+Respondendo as perguntas: 
 
 -- Por que uma planilha não é ideal para uma empresa que quer analisar suas vendas a fundo?
 -- Resposta: uma planilha não é ideal, pois tem uma capacidade de armazenamento menor e limitado, escalabilidade menor e flexibilidade.   
